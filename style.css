@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+}
+
+.block{
+    width: 300px;
+    height: 300px;
+    border: 6px solid red;
+    border-radius: 0%;
+    background-image: url( https://nakleikashop.ru/images/detailed/54/Btrfly-018.png);
+    background-size: cover;
+    background-position-x:50% ;
+    box-shadow: 0px 0px 15px 15px blueviolet;
+    transition: 2s;
+}
+
+.block:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    transform: rotate(360deg);
+    background-image: url(https://zakazposterov.ru/fotooboi/z/fotooboi-e-44151-krasochnie-babochki-zakazposterov-ru_z.jpg )
+}
+.block-2{
+    width:300px ;
+    height: 300px;
+    border: 6px solid black;
+    border-radius: 0%;
+    background-color: brown;
+    background-image: url(https://webpulse.imgsmail.ru/imgpreview?mb=webpulse&key=pulse_cabinet-image-2c08f92b-77e3-44af-95c3-89cec41ca5dc );
+    background-size: cover;
+    background-position-x:50% ;
+    box-shadow: 0px 0px 15px 15px burlywood;
+    transition: 2s;
+}
+
+.block-2:hover{
+
+}
